@@ -1,0 +1,15 @@
+{
+  "name": "wikipedia-zipf",
+  "version": "1.0.0",
+  "description": "statistical analysis of Wikipedia",
+  "main": "src/index.js",
+  "scripts": {
+    "dump": "node src/dump/index.js",
+    "gather": "node src/gather/index.js"
+  },
+  "author": "emil",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}
